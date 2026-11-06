@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Home
+date: 2026-11-06
+tags: [Craft, Crochet, Yarn, Stationary, 3D Printing]
+description: "Home page."
 ---
 
 # Welcome to The Clarke Space
