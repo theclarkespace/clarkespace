@@ -10,9 +10,9 @@ thumbnail: /assets/images/chunkypig-thumb.png
 # Chunky Pig Crochet Pattern
 
 <div class="meta-tags">
-  <span class="tag">Tag1</span>
-  <span class="tag">Tag2</span>
-  <span class="tag">Tag3</span>
+  <span class="tag">Craft</span>
+  <span class="tag">Crochet</span>
+  <span class="tag">Yarn</span>
 </div>
 
 > **For my wife:** Love you Emmo!
@@ -42,7 +42,6 @@ Let’s see what we can do!
 ## 2. Pattern
 
 Below is the body pattern and the individual pieces. A deeper explanation of the feet is below the body pattern.
-Visual pattern made on: https://www.stitchfiddle.com/
 
 > Visual pattern made on: https://www.stitchfiddle.com/
 
@@ -79,15 +78,18 @@ sc, sc, sc, FLO-puffst, sc, dec, sc, sc, sc, sc, sc, dec, FLO-puffst, sc, sc, sc
 Invisible finishing off method. Fasten off.
 
 ### Nose
-![nose pattern](/assets/images/nose-pattern.jpg)
+![nose pattern](/assets/images/nose-pattern.png)
 
 ### Ear
-![ear pattern](/assets/images/ear-pattern.jpg)
+![ear pattern](/assets/images/ear-pattern.png)
 
 ### Tail
-![tail pattern](/assets/images/tail-pattern.jpg)
+![tail pattern](/assets/images/tail-pattern.png)
 
 ### Feet
 Done as part of the body, but explained a little more down here.
 FLO 5 Popcorn - 5 dc in the front loop of one stitch. Remove the hook and insert in the top of the first of the 5 stitches, then back onto the loop and pull through.
 
+### Sew it all together!
+Ears on top, nose on front and tail on the back! 
+Enjoy you're new chunk piggy!
