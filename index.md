@@ -12,17 +12,17 @@ Bookmark this page to keep an eye on project updates, documentation, and persona
 
 ---
 
-## Site Navigation
-
-* [Check out my Crochet Main Page](_crochet/crochetmain.html)
-* [View Chunky Pig Project](_crochet/chunkypig.html)
+## Quick Navigation
+- [Check out my Crochet Main Page](_crochet/crochetmain.html)
+- [View Chunky Pig Project](_crochet/chunkypig.html)
+- [View All Crochet Projects](#recent-crochet-projects)
 
 ---
 
 ### Recent Updates
 Write your latest updates here in plain Markdown text!
 
-# Recent Crochet Projects
+<h2 id="recent-crochet-projects">Recent Crochet Projects</h2>
 
 <div class="card-grid">
   {% assign sorted_projects = site.crochet | sort: "date" | reverse %}
@@ -40,3 +40,6 @@ Write your latest updates here in plain Markdown text!
     </a>
   {% endfor %}
 </div>
+
+
+
