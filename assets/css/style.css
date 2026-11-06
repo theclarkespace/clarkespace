@@ -288,3 +288,56 @@ article ul li {
   font-size: 0.8rem;
   color: var(--text-muted);
 }
+
+/* Fluid, responsive image sizing for all markdown content */
+article img,
+.main-content img {
+  max-width: 100%;       /* Prevents images from exceeding their container width */
+  height: auto;          /* Maintains correct aspect ratio automatically */
+  display: block;        /* Prevents inline baseline alignment gaps */
+  margin: 1.5rem auto;   /* Centers images with vertical spacing */
+  border-radius: 8px;    /* Optional: soft corners matching your modern theme */
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid var(--border, #eaeaea);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-header .header-left h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.site-header .header-left h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-header .tagline {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.site-header .header-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-header .header-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+}
+
+.site-header .header-nav a:hover {
+  text-decoration: underline;
+}
