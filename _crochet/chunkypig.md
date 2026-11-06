@@ -22,10 +22,15 @@ thumbnail: /assets/crochet/images/chunkypig/chunkypig-thumb.png
 ## 1. Overview
 
 There’s a few pictures of a specific pig my wife wants to crochet. But nowhere does a pattern exist. It looks like you used to be able to buy the pattern, but that etsy account no longer exists. So, I’ll do it myself!
+
 From the pictures, I estimate there are about 48 stitches along the middle, meaning this is most likely an amigurumi ball starting with a magic ring of 6, with 6 increases every round up to 48 stitches. It also looks like there are about 5 rows of non-increasing before decreasing.
+
 The nose could be done a few ways, but to get the oval shape, I think starting with a “ch 3 skip first ch…” instead of a magic ring would work best.
+
 The ears seem similar to the nose, but longer and don't finish the round.
+
 The tail would most likely be a chain with 2-3 increases down one side.
+
 And if possible, the feet would be popcorn stitches!
 
 Let’s see what we can do!
