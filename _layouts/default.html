@@ -57,5 +57,25 @@
     </aside>
   </div>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const checkboxes = document.querySelectorAll(".persist-check");
+  
+      checkboxes.forEach((checkbox) => {
+        // 1. Load saved state on page load
+        const savedState = localStorage.getItem(checkbox.id);
+        if (savedState !== null) {
+          checkbox.checked = savedState === "true";
+        }
+  
+        // 2. Save state when clicked
+        checkbox.addEventListener("change", function () {
+          localStorage.setItem(checkbox.id, checkbox.checked);
+        });
+      });
+    });
+  </script>
+  
 </body>
 </html>
+
