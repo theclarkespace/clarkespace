@@ -170,6 +170,11 @@ article ul li {
   border-bottom: 1px dashed var(--border);
 }
 
+/* Add spacing between task list checkboxes and their text */
+article ul input[type="checkbox"] {
+  margin-right: 0.6rem;
+}
+
 /* ==========================================
    5. Metadata & Tags
    ========================================== */
