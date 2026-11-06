@@ -27,9 +27,9 @@ Write your latest updates here in plain Markdown text!
 <div class="card-grid">
   {% assign sorted_projects = site.crochet | sort: "date" | reverse %}
   {% for project in sorted_projects %}
-    <a href="{{ site.baseurl }}{{ project.url }}" class="card">
+    <a href="{{ project.url | relative_url }}" class="card">
       {% if project.thumbnail %}
-        <div class="card-image" style="background-image: url('{{ project.thumbnail }}');"></div>
+        <div class="card-image" style="background-image: url('{{ project.thumbnail | relative_url }}');"></div>
       {% else %}
         <div class="card-image placeholder">No Image</div>
       {% endif %}
