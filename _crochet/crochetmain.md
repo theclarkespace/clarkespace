@@ -4,6 +4,7 @@ title: "Project Title Here"
 date: YYYY-MM-DD
 tags: [Craft, Crochet, Yarn]
 description: "Brief 1-2 sentence overview of the project."
+thumbnail: /assets/images/chunkypig-thumb.jpg
 ---
 
 # Project Title Here
