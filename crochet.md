@@ -21,5 +21,5 @@ permalink: /crochet/
 
 ## Projects
 
-- **Project 1:** Chunky Pig
+- **Project 1:** <li><a href="/clarkespace/crochet/chunkypig/">Chunky Pig</a></li>
 - **Project 2:** WIP: Crochet Weighted Bookmark
