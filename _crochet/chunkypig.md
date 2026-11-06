@@ -66,10 +66,10 @@ The body is an amigurumi ball, but with 4 puff stitches as feet.
 - [ ] Round 14:	[[sc]x3, dec, [sc]x3] x6 (42)
 - [ ] Round 15:	[[sc] x5, dec] x6 (36) - 4x [FLO 5dc Puff Stitches] evenly along this round, as feet. first puff instead of the fourth sc, then every 9th stitch after.
 - [ ] Round 16:	[[sc]x2, dec, [sc]x2] x6 (30)
-- [ ] Round 15:	[[sc] x3, dec] x6 (24)
-- [ ] Round 17:	[sc, dec, sc] x6 (18)
-- [ ] Round 15:	[sc, dec] x6 (12)
-- [ ] Round 15:	[dec] x6 (6)
+- [ ] Round 17:	[[sc] x3, dec] x6 (24)
+- [ ] Round 18:	[sc, dec, sc] x6 (18)
+- [ ] Round 19:	[sc, dec] x6 (12)
+- [ ] Round 20:	[dec] x6 (6)
 
 Invisible finishing off method. Fasten off.
 
