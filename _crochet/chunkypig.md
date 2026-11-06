@@ -3,11 +3,11 @@ layout: default
 title: "Chunky Pig Crochet Pattern"
 date: 2026-11-01
 tags: [Craft, Crochet, Yarn]
-description: "Brief 1-2 sentence overview of the project."
+description: "Reverse Crochet-neering From Lost Patterns."
 thumbnail: /assets/images/chunkypig-thumb.png
 ---
 
-# Project Title Here
+# Chunky Pig Crochet Pattern
 
 <div class="meta-tags">
   <span class="tag">Tag1</span>
