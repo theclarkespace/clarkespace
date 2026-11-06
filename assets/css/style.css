@@ -229,3 +229,62 @@ article ul li {
     order: 2; /* Drops sidebar below main content on mobile */
   }
 }
+/* Responsive Post Card Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-image {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--code-bg);
+}
+
+.card-image.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.card-content {
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.card-content h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--text-main);
+  line-height: 1.4;
+}
+
+.card-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
