@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chunky Pig Crochet Pattern"
-date: 2026-11-01
+date: 2026-11-06
 tags: [Craft, Crochet, Yarn]
 description: "Reverse Crochet-neering From Lost Patterns."
 thumbnail: "/assets/crochet/images/chunkypig/chunkypig-thumb.png"
