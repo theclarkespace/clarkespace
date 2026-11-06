@@ -12,13 +12,6 @@ Bookmark this page to keep an eye on project updates, documentation, and persona
 
 ---
 
-## Quick Navigation
-- [Check out my Crochet Main Page](_crochet/crochetmain.md)
-- [View Chunky Pig Project](_crochet/chunkypig.md)
-- [View All Crochet Projects](#recent-crochet-projects)
-
----
-
 ### Recent Updates
 Write your latest updates here in plain Markdown text!
 
