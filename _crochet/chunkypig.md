@@ -4,7 +4,7 @@ title: "Chunky Pig Crochet Pattern"
 date: 2026-11-01
 tags: [Craft, Crochet, Yarn]
 description: "Reverse Crochet-neering From Lost Patterns."
-thumbnail: /assets/images/chunkypig-thumb.png
+thumbnail: assets/images/chunkypig-thumb.png
 ---
 
 # Chunky Pig Crochet Pattern
@@ -57,18 +57,9 @@ The body is an amigurumi ball, but with 4 puff stitches as feet.
 - [ ] Round 6:	[[sc]x2, inc, [sc]x2] x6 (36)
 - [ ] Round 7:	[[sc] x5, inc] x6 (42)
 - [ ] Round 8:	[[sc]x3, inc, [sc]x3] x6 (48)
-
 - [ ] Round 9-13:	[sc] x48 (48)
-
 - [ ] Round 14:	[[sc]x3, dec, [sc]x3] x6 (42)
-
-- [ ] Round 15:	[[sc] x5, dec] x6 (36) - 4x [FLO 5dc Puff Stitches] evenly along this round, as feet.
-
-```text
-Round 15 typed out each stitch for clarity:
-sc, sc, sc, FLO-puffst, sc, dec, sc, sc, sc, sc, sc, dec, FLO-puffst, sc, sc, sc, sc, dec, sc, sc, sc, FLO-puffst, sc, dec, sc, sc, sc, sc, sc, dec, FLO-puffst, sc, sc, sc, sc, dec
-```
-
+- [ ] Round 15:	[[sc] x5, dec] x6 (36) - 4x [FLO 5dc Puff Stitches] evenly along this round, as feet. first puff instead of the fourth sc, then every 9th stitch after.
 - [ ] Round 16:	[[sc]x2, dec, [sc]x2] x6 (30)
 - [ ] Round 15:	[[sc] x3, dec] x6 (24)
 - [ ] Round 17:	[sc, dec, sc] x6 (18)
@@ -78,17 +69,22 @@ sc, sc, sc, FLO-puffst, sc, dec, sc, sc, sc, sc, sc, dec, FLO-puffst, sc, sc, sc
 Invisible finishing off method. Fasten off.
 
 ### Nose
-![nose pattern](/assets/images/nose-pattern.png)
+![nose pattern](assets/images/nose-pattern.png)
 
 ### Ear
-![ear pattern](/assets/images/ear-pattern.png)
+![ear pattern](assets/images/ear-pattern.png)
 
 ### Tail
-![tail pattern](/assets/images/tail-pattern.png)
+![tail pattern](assets/images/tail-pattern.png)
 
 ### Feet
 Done as part of the body, but explained a little more down here.
 FLO 5 Popcorn - 5 dc in the front loop of one stitch. Remove the hook and insert in the top of the first of the 5 stitches, then back onto the loop and pull through.
+
+```text
+Round 15 typed out each stitch for clarity:
+sc, sc, sc, FLO-puffst, sc, dec, sc, sc, sc, sc, sc, dec, FLO-puffst, sc, sc, sc, sc, dec, sc, sc, sc, FLO-puffst, sc, dec, sc, sc, sc, sc, sc, dec, FLO-puffst, sc, sc, sc, sc, dec
+```
 
 ### Sew it all together!
 Ears on top, nose on front and tail on the back! 
