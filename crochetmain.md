@@ -6,7 +6,7 @@ description: "My main crochet page, start here if you're after everything croche
 thumbnail: /assets/crochet/images/crochet-thumb.jpg
 ---
 
-# Project Title Here
+# Crochet Projects
 
 <div class="meta-tags">
   <span class="tag">Tag1</span>
