@@ -74,13 +74,13 @@ The body is an amigurumi ball, but with 4 puff stitches as feet.
 Invisible finishing off method. Fasten off.
 
 ### Nose
-![nose pattern](/assets/crochet/images/chunkypig/nose-pattern.png)
+<img src="{{ '/assets/crochet/images/chunkypig/nose-pattern.png' | relative_url }}" alt="Nose pattern">
 
 ### Ear
-![ear pattern](/assets/crochet/images/chunkypig/ear-pattern.png)
+<img src="{{ '/assets/crochet/images/chunkypig/ear-pattern.png' | relative_url }}" alt="Ear pattern">
 
 ### Tail
-![tail pattern](/assets/crochet/images/chunkypig/tail-pattern.png)
+<img src="{{ '/assets/crochet/images/chunkypig/tail-pattern.png' | relative_url }}" alt="Tail pattern">
 
 ### Feet
 Done as part of the body, but explained a little more down here.
