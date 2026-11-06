@@ -119,6 +119,28 @@ body {
   min-width: 0; /* Prevents overflow issues with wide code blocks */
 }
 
+/* Display list items side-by-side in a horizontal row */
+.inline-checkboxes ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;          /* Space between each checkbox item */
+  list-style: none;     /* Removes standard bullet points */
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.inline-checkboxes ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: none;  /* Prevents any default article border styling */
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.inline-checkboxes ul li input[type="checkbox"] {
+  margin-right: 0.4rem; /* Space between the box and the label text */
+}
+
 /* ==========================================
    4. Article Typography & Content
    ========================================== */
