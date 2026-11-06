@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Project Title Here"
-date: 2026-11-01
 tags: [Craft, Crochet, Yarn]
 description: "Brief 1-2 sentence overview of the project."
 thumbnail: /assets/crochet/images/crochet-thumb.jpg
