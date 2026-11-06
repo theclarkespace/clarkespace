@@ -15,45 +15,11 @@ permalink: /crochet/
   <span class="tag">Tag3</span>
 </div>
 
-> **Summary / Quick Note:** Write a brief introductory highlight, key goal, or status update here.
+> **Summary:** Here's my projects, have a look, make something cool!
 
 ---
 
-## 1. Overview & Setup
+## Projects
 
-Write your project intro and background here.
-
-### Materials & Components
-
-- **Component 1:** Description / Specs
-- **Component 2:** Description / Specs
-- **Tool 1:** Tool details
-
----
-
-## 2. Design & Execution
-
-Detail your steps, CAD models, schematics, or build process here.
-
-> Insert an important note or callout quote here if needed.
-
-### Technical Details
-
-```text
-// Add code, schematics, terminal commands, or config logic here
-```
-
----
-
-## 3. Results & Showcase
-
-Describe the final build outcome here.
-
-![Image Alt Text](url-to-your-image.jpg)
-
----
-
-## 4. Takeaways & Next Steps
-
-- **Lesson 1:** What worked well or what to change next time.
-- **Lesson 2:** Maintenance or future improvement ideas.
+- **Project 1:** Chunky Pig
+- **Project 2:** WIP: Crochet Weighted Bookmark
