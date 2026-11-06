@@ -94,3 +94,27 @@ article pre code {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+/* Blog Article Header Meta */
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Article List Styling on Index */
+article ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article ul li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed var(--border);
+}
