@@ -4,7 +4,7 @@ title: "Chunky Pig Crochet Pattern"
 date: 2026-11-01
 tags: [Craft, Crochet, Yarn]
 description: "Reverse Crochet-neering From Lost Patterns."
-thumbnail: assets/images/chunkypig-thumb.png
+thumbnail: /assets/crochet/images/chunkypig/chunkypig-thumb.png
 ---
 
 # Chunky Pig Crochet Pattern
@@ -69,13 +69,13 @@ The body is an amigurumi ball, but with 4 puff stitches as feet.
 Invisible finishing off method. Fasten off.
 
 ### Nose
-![nose pattern](assets/images/nose-pattern.png)
+![nose pattern](/assets/crochet/images/chunkypig/nose-pattern.png)
 
 ### Ear
-![ear pattern](assets/images/ear-pattern.png)
+![ear pattern](/assets/crochet/images/chunkypig/ear-pattern.png)
 
 ### Tail
-![tail pattern](assets/images/tail-pattern.png)
+![tail pattern](/assets/crochet/images/chunkypig/tail-pattern.png)
 
 ### Feet
 Done as part of the body, but explained a little more down here.
