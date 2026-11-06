@@ -8,18 +8,54 @@
 </head>
 <body>
 
+  <!-- Blog Header -->
   <header class="site-header">
-    <a href="/" class="site-title">{{ site.title }}</a>
-    <nav>
-      <a href="/" style="color: var(--text-muted); text-decoration: none;">Projects</a>
-    </nav>
+    <div class="header-container">
+      <div class="site-branding">
+        <a href="/" class="site-title">{{ site.title }}</a>
+        <p class="site-tagline">Project logs, build notes, and maker docs</p>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Home</a>
+        <a href="/crochet/">Crochet</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <article>
-      {{ content }}
-    </article>
-  </main>
+  <!-- Two-Column Main Layout -->
+  <div class="layout-wrapper">
+    <main class="main-content">
+      <article>
+        {{ content }}
+      </article>
+    </main>
+
+    <!-- Blog Sidebar -->
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>About the Maker</h3>
+        <p>Documenting process logs, amigurumi patterns, and hands-on build projects.</p>
+      </div>
+
+      <div class="widget">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/crochet/">Crochet Logs</a></li>
+          <li><a href="/projects/">Hardware Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h3>Recent Additions</h3>
+        <ul>
+          {% for project in site.crochet limit:3 %}
+            <li><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+  </div>
 
 </body>
 </html>
