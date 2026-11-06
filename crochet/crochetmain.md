@@ -2,7 +2,7 @@
 layout: default
 title: "Project Title Here"
 date: YYYY-MM-DD
-tags: [Tag1, Tag2, Tag3]
+tags: [Craft, Crochet, Yarn]
 description: "Brief 1-2 sentence overview of the project."
 ---
 
