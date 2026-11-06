@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Project Title Here"
+title: "Crochet Projects"
 tags: [Craft, Crochet, Yarn]
-description: "Brief 1-2 sentence overview of the project."
+description: "My main crochet page, start here if you're after everything crochet."
 thumbnail: /assets/crochet/images/crochet-thumb.jpg
 ---
 
