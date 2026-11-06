@@ -63,7 +63,7 @@ The body is an amigurumi ball, but with 4 puff stitches as feet.
 - [ ] Round 7:	[[sc] x5, inc] x6 (42)
 - [ ] Round 8:	[[sc]x3, inc, [sc]x3] x6 (48)
 <!-->- [ ] Round 9-13:	[sc] x48 (48)<-->
-- <label><input type="checkbox"></label><label><input type="checkbox"></label><label><input type="checkbox"></label><label><input type="checkbox"></label><label><input type="checkbox"></label> Round 9-13: [sc] x48 (48)
+- <label><input type="checkbox"></label><label><input type="checkbox"></label><label><input type="checkbox"></label><label><input type="checkbox"></label><label><input type="checkbox"></label>Round 9-13: [sc] x48 (48)
 - [ ] Round 14:	[[sc]x3, dec, [sc]x3] x6 (42)
 - [ ] Round 15:	[[sc] x5, dec] x6 (36) - 4x [FLO 5dc Puff Stitches] evenly along this round, as feet. first puff instead of the fourth sc, then every 9th stitch after.
 - [ ] Round 16:	[[sc]x2, dec, [sc]x2] x6 (30)
