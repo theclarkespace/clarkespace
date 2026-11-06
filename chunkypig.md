@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Crochet Projects"
-permalink: https://theclarkespace.github.io/clarkespace/crochet
+permalink: https://theclarkespace.github.io/clarkespace/crochet/chunkypig
 ---
 <!DOCTYPE html>
 <html lang="en">
