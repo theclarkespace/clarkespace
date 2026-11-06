@@ -11,9 +11,8 @@ Bookmark this page to keep an eye on project updates, documentation, and persona
 
 ## Site Navigation
 
-* [Crochet Projects](crochet.crochetmain.md)
-* [Project Log](crochet.chunkypig.md)
-* [About Me](about.md)
+[Check out my Crochet Main Page](crochet/crochetmain.html)
+[View Chunky Pig Project](crochet/chunkypig.html)
 
 ---
 
