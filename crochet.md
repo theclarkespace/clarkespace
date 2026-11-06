@@ -4,6 +4,7 @@ title: "Crochet Projects"
 tags: [Craft, Crochet, Yarn]
 description: "My main crochet page, start here if you're after everything crochet."
 thumbnail: /assets/crochet/images/crochet-thumb.jpg
+permalink: /crochet/
 ---
 
 # Crochet Projects
