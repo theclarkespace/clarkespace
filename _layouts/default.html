@@ -59,31 +59,31 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      // Automatically finds every checkbox inside your article
       const checkboxes = document.querySelectorAll("article input[type='checkbox']");
   
       checkboxes.forEach((checkbox, index) => {
-        // 1. Force enable the checkbox so it's clickable!
+        // 1. Force enable the checkbox so it's clickable
         checkbox.removeAttribute("disabled");
-        
-        // Create a unique storage key using the page URL and the step's text content
-        const stepText = checkbox.closest("li") ? checkbox.closest("li").textContent.trim() : `step-${index}`;
-        const storageKey = window.location.pathname + "-" + stepText;
   
-        // 2. Load saved state on page load
+        // 2. Create a unique storage key using URL + list item text + the checkbox index
+        const parentLi = checkbox.closest("li");
+        const parentText = parentLi ? parentLi.textContent.trim() : `item`;
+        const storageKey = `${window.location.pathname}-${parentText}-cb-${index}`;
+  
+        // 3. Load saved state on page load
         const savedState = localStorage.getItem(storageKey);
         if (savedState !== null) {
           checkbox.checked = savedState === "true";
         }
   
-        // 3. Save state when clicked
+        // 4. Save state on change
         checkbox.addEventListener("change", function () {
           localStorage.setItem(storageKey, checkbox.checked);
         });
       });
     });
   </script>
-  
+    
 </body>
 </html>
 
