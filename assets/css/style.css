@@ -1,3 +1,6 @@
+/* ==========================================
+   1. Theme Variables & Base Styles
+   ========================================== */
 :root {
   --bg-primary: #fbfbfb;
   --bg-surface: #ffffff;
@@ -21,7 +24,12 @@
   }
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--bg-primary);
   color: var(--text-main);
@@ -30,109 +38,20 @@ body {
   padding: 2rem 1rem;
 }
 
-.site-header {
-  max-width: var(--max-width);
-  margin: 0 auto 3rem auto;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-title {
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--text-main);
-  text-decoration: none;
-}
-
-.container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
-
-article h1 { font-size: 2.25rem; margin-bottom: 0.5rem; line-height: 1.2; }
-article h2 { font-size: 1.5rem; margin: 2rem 0 1rem 0; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
-article h3 { font-size: 1.2rem; margin: 1.5rem 0 0.75rem 0; }
-article p { margin-bottom: 1.25rem; }
-
-article blockquote {
-  border-left: 4px solid var(--accent);
-  padding-left: 1rem;
-  color: var(--text-muted);
-  margin: 1.5rem 0;
-  font-style: italic;
-}
-
-article code {
-  background: var(--code-bg);
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.9em;
-}
-
-article pre code {
-  display: block;
-  padding: 1rem;
-  overflow-x: auto;
-  border: 1px solid var(--border);
-}
-
-.meta-tags {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 2rem;
-}
-
-.tag {
-  background: var(--border);
-  color: var(--text-muted);
-  font-size: 0.75rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 12px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-/* Blog Article Header Meta */
-.post-meta {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-/* Article List Styling on Index */
-article ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article ul li {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px dashed var(--border);
-}
-/* Layout Container */
-.layout-wrapper {
-  max-width: 1080px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-  display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 2.5rem;
-}
-
-/* Header Styling */
+/* ==========================================
+   2. Header & Navigation
+   ========================================== */
 .site-header {
   background: var(--bg-surface);
   border-bottom: 1px solid var(--border);
-  padding: 1.5rem 0;
+  padding: 1.5rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .header-container {
@@ -142,6 +61,12 @@ article ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+
+.site-branding {
+  display: flex;
+  flex-direction: column;
 }
 
 .site-title {
@@ -170,66 +95,114 @@ article ul li {
 
 .site-nav a:hover {
   color: var(--accent);
+  text-decoration: underline;
 }
 
-/* Main Content Area */
+/* ==========================================
+   3. Layout Structure & Containers
+   ========================================== */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.layout-wrapper {
+  max-width: 1080px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2.5rem;
+}
+
 .main-content {
   min-width: 0; /* Prevents overflow issues with wide code blocks */
 }
 
-/* Sidebar & Widgets */
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+/* ==========================================
+   4. Article Typography & Content
+   ========================================== */
+article h1 { font-size: 2.25rem; margin-bottom: 0.5rem; line-height: 1.2; }
+article h2 { font-size: 1.5rem; margin: 2rem 0 1rem 0; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+article h3 { font-size: 1.2rem; margin: 1.5rem 0 0.75rem 0; }
+article p { margin-bottom: 1.25rem; }
+
+article blockquote {
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+  color: var(--text-muted);
+  margin: 1.5rem 0;
+  font-style: italic;
 }
 
-.widget {
-  background: var(--bg-surface);
+article code {
+  background: var(--code-bg);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article pre code {
+  display: block;
+  padding: 1rem;
+  overflow-x: auto;
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 1.25rem;
 }
 
-.widget h3 {
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--border);
+/* Fluid, responsive image sizing for markdown content */
+article img,
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
 }
 
-.widget ul {
-  list-style: none;
+article ul {
+  list-style-type: none;
   padding: 0;
 }
 
-.widget ul li {
-  margin-bottom: 0.5rem;
+article ul li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed var(--border);
 }
 
-.widget ul li a {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 0.9rem;
+/* ==========================================
+   5. Metadata & Tags
+   ========================================== */
+.meta-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 
-/* Responsive Collapse for Small Screens */
-@media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .layout-wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .sidebar {
-    order: 2; /* Drops sidebar below main content on mobile */
-  }
+.tag {
+  background: var(--border);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-/* Responsive Post Card Grid */
+
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* ==========================================
+   6. Cards & Grids (Index & Collections)
+   ========================================== */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -289,55 +262,59 @@ article ul li {
   color: var(--text-muted);
 }
 
-/* Fluid, responsive image sizing for all markdown content */
-article img,
-.main-content img {
-  max-width: 100%;       /* Prevents images from exceeding their container width */
-  height: auto;          /* Maintains correct aspect ratio automatically */
-  display: block;        /* Prevents inline baseline alignment gaps */
-  margin: 1.5rem auto;   /* Centers images with vertical spacing */
-  border-radius: 8px;    /* Optional: soft corners matching your modern theme */
-}
-
-.site-header {
+/* ==========================================
+   7. Sidebar & Widgets
+   ========================================== */
+.sidebar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  padding: 2rem 2.5rem;
-  border-bottom: 1px solid var(--border, #eaeaea);
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.site-header .header-left h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-.site-header .header-left h1 a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.site-header .tagline {
-  margin: 0.25rem 0 0 0;
-  font-size: 0.95rem;
-  opacity: 0.8;
-}
-
-.site-header .header-nav {
-  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
 }
 
-.site-header .header-nav a {
-  text-decoration: none;
-  font-weight: 500;
-  color: inherit;
+.widget {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem;
 }
 
-.site-header .header-nav a:hover {
-  text-decoration: underline;
+.widget h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget ul li {
+  margin-bottom: 0.5rem;
+}
+
+.widget ul li a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* ==========================================
+   8. Responsive Media Queries
+   ========================================== */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .layout-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    order: 2; /* Drops sidebar below main content on mobile */
+  }
 }
