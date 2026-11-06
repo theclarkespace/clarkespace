@@ -65,11 +65,11 @@ The body is an amigurumi ball, but with 4 puff stitches as feet.
 <!-->- [ ] Round 9-13:	[sc] x48 (48)<-->
 <div class="inline-checkboxes">
 
-- [ ] 
-- [ ] 
-- [ ]  
-- [ ] 
-- [ ] Round 9-13:	[sc] x48 (48)
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5 - Round 9-13:	[sc] x48 (48)
 
 </div>
 - [ ] Round 14:	[[sc]x3, dec, [sc]x3] x6 (42)
