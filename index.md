@@ -24,12 +24,19 @@ Write your latest updates here in plain Markdown text!
 
 # Recent Crochet Projects
 
-{% assign sorted_projects = site.crochet | sort: "date" | reverse %}
-<ul>
+<div class="card-grid">
+  {% assign sorted_projects = site.crochet | sort: "date" | reverse %}
   {% for project in sorted_projects %}
-    <li>
-      <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
-      <span style="color: var(--text-muted); font-size: 0.85rem;">— {{ project.date | date: "%B %d, %Y" }}</span>
-    </li>
+    <a href="{{ site.baseurl }}{{ project.url }}" class="card">
+      {% if project.thumbnail %}
+        <div class="card-image" style="background-image: url('{{ project.thumbnail }}');"></div>
+      {% else %}
+        <div class="card-image placeholder">No Image</div>
+      {% endif %}
+      <div class="card-content">
+        <h3>{{ project.title }}</h3>
+        <span class="card-date">{{ project.date | date: "%B %d, %Y" }}</span>
+      </div>
+    </a>
   {% endfor %}
-</ul>
+</div>
